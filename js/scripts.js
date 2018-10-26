@@ -3,25 +3,36 @@
 
 //Business Logic
 
-// var zero = [0]
+var zero = [0]
 // var two = [2]
 // var three = [3]
 //
 // //This function will take the inputted user number.
-//
-// // function makeArrayOfNumbersZeroThroughUserNumber(){
-//
+
   var emptyArray = [];
 
-  for (var i = 0; i <= 50; i++) {
+  var userInput = "#userInput"
+
+  for(var i = 0; i <= userInput; i++) {
     console.log(i);
     emptyArray.push(i);
 
   };
 
   // return emptyArray;
+//d
+// function getBeeps(){
 
-// };
+
+
+var beep = [' ']
+
+  for(var i = 0; i<=emptyArray.length; i++)
+    if (emptyArray === zero[i]){
+    beep.push("Beep");
+
+  }
+
 
 
 

@@ -22,19 +22,6 @@ var three = [3]
   };
   // return emptyArray;
 //d
-// function getBeeps(){
-
-
-//
-// var beep = [' ']
-//
-//   for(var i = 0; i<= emptyArray.length; i++)
-//     if (i === zero[i]){
-//     beep.push("Beep");
-//
-//   }
-// };
-
 
 
 

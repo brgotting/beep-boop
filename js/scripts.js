@@ -3,7 +3,6 @@
 
 //Business Logic
 
-// function getBeeps(){
 
 var zero = [0]
 var two = [2]

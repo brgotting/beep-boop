@@ -3,26 +3,29 @@
 
 //Business Logic
 
-var numbersList = []
-var 0 = "beep"
-var 1 = "boop"
-var 3 = "I'm sorry Dave I cannot do that."
+// var zero = [0]
+// var two = [2]
+// var three = [3]
+//
+// //This function will take the inputted user number.
+//
+// // function makeArrayOfNumbersZeroThroughUserNumber(){
+//
+  var emptyArray = [];
 
-//This function will take the inputted user number.
+  for (var i = 0; i <= 50; i++) {
+    console.log(i);
+    emptyArray.push(i);
 
-function makeArrayOfNumbers(){
+  };
 
-  numbers.for(i = 0; i < userNumber.length; i++){
-  document.write('Item: ' + (i + 1) + ' of ' + userNumber.length);
+  // return emptyArray;
 
-  numbersList.push(userNumber[i])
-
-}
-
-console.log(numbersList(5))
+// };
 
 
-});
+
+
 
 //And output an array of numbers n-user number.
 
@@ -45,7 +48,12 @@ console.log(numbersList(5))
 
 
 
-//User Interface
-$(document).ready(function() {
-
-});
+// //User Interface
+// $(document).ready(function() {
+//   $("#userInput").submit(function(event) {
+//     var userInput = $("#input").val();
+//      var result = counter(userInput)
+//      $("#output").text(result);
+//      event.preventDefault();
+//   });
+// });

@@ -1,26 +1,19 @@
 
 
 
-//Business Logic
-function getArrayOfNumbersFromZeroToUserNumber(number){
+// //Business Logic
+function getArrays(inputNumber){
 
 
-//
-// //This function will take the inputted user number.
+  var zeroThroughInputNumber = [];
 
-  var emptyArray = [];
+  for(var i = 0; i <= inputNumber; i++) {
 
-  for(var i = 0; i <= number; i++) {
-    console.log(i);
     emptyArray.push(i);
-  };
-}
 
+  }
 
-
-
-
-//And output an array of numbers n-user number.
+};
 
 
 
@@ -29,11 +22,22 @@ function getArrayOfNumbersFromZeroToUserNumber(number){
 
 
 //User Interface
+
+
+
+
 $(document).ready(function() {
+
   $("form#userInput").submit(function(event) {
-    var number = $(parseInt("#number").val();
-     var result = counter(userInput)
-     $("#output").text(result);
+
+
+
+     var inputNumber= parseInt($("#inputNumber").val())
+
+     $("#output").text(emptyArray);
+
      event.preventDefault();
+
   });
+
 });

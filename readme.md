@@ -8,11 +8,12 @@ Project that takes an input number and returns an array with certain numbers swa
 
 ## Specifications
 
-Take non-negative numbers and disqualify.
-For numbers containing zero, split digits.
-Split multiple digit numbers containing 1.
-Remove divisible/by three numbers.
-Prioritize the first, then second step.
+### Take non-negative numbers and disqualify.
+### For numbers containing zero, split digits.
+### For numbers containing zero, split digits.
+### Split multiple digit numbers containing 1.
+### Remove divisible/by three numbers.
+### Prioritize the first, then second step.
 
 
 ## Setup

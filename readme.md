@@ -7,13 +7,12 @@
 Project that takes an input number and returns an array with certain numbers swapped out for a 'robotic' translation.
 
 ## Specifications
+Create an array of 0-userNumber.
+For numbers containing 0, output beep.
+For number containing 1, output boop.
+For numbers divisible by 3, output "I'm sorry."
+Prioritize the third, then second step over the first.
 
-### Take non-negative numbers and disqualify.
-### For numbers containing zero, split digits.
-### For numbers containing zero, split digits.
-### Split multiple digit numbers containing 1.
-### Remove divisible/by three numbers.
-### Prioritize the first, then second step.
 
 
 ## Setup

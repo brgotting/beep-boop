@@ -1,61 +1,34 @@
-
-
-
-// //Business Logic
-
-function getNumber(userNumber){
-
-  var userNumber = []
-
-  if (inputNumber < 0){
-    return "Be postivie!";
-  }
-  else{
-    userNumber.push(userNumber)
+// Business logic
+function getArray(userNumber) {
+  var newArray = [];
+  for (var i = 0; i <= userNumber; i++) {
+    newArray.push(conditionals(i));
+    var array = newArray.toString();
   }
 
-  return userNumber
+  return array
 
-
+}
+function conditionals(indexedArray) {
+  var number = indexedArray.toString()
+  if (indexedArray % 3 == 0) {
+    return "I'm sorry, Dave. I'm afraid I can't do that";
+  } else if (number.includes("1")) {
+    return "Beep!";
+  } else if (number.includes("0")) {
+    return "Boop!";
+  } else {
+    return indexedArray;
   }
 
-};
+}
 
-function translation(userNumber){
-
-var zeroThroughInputNumber = [];
-
-for(var i = 0; i <= inputNumber; i++) {
-
-  zeroThroughInputNumber.push(i);
-
-  if (zeroThroughInputNumber[i] % 3 === 0){
-    return "I'm sorry Dave, i'm afraid I can't do that.";
-  }
-  else if (zeroThroughInputNumber[i] === 1)
-    return "1.";
-  }
-
-};
-
-
-
-
-
-//User Interface
-
-
-
+// UI Logic
 
 $(document).ready(function() {
-
-  $("form#userInput").submit(function(event) {
-     var inputNumber= parseInt($("#inputNumber").val())
-     $("#output").text(emptyArray);
-     var notPositive = getNumber($("#inputNumber").val()))
-     var translation = translation($("#inputNumber").val()))
-     event.preventDefault();
-
+  $("#input").submit(function(event) {
+    event.preventDefault();
+    var translation = getArray(parseInt($("#inputNumber").val()));
+    $("#output").text(translation);
   });
-
 });

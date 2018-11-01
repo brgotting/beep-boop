@@ -12,7 +12,7 @@ For numbers containing 0, output beep.
 For number containing 1, output boop.
 For numbers divisible by 3, output "I'm sorry."
 Prioritize the third, then second step over the first.
-
+Output to user.
 
 
 ## Setup
